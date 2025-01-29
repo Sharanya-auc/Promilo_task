@@ -1,11 +1,12 @@
 import React from "react";
-import "./order.css";
+
 import { GrDropbox } from "react-icons/gr";
 import { FaClock } from "react-icons/fa";
 import { GiCardboardBoxClosed } from "react-icons/gi";
 import { TbCalendarCancel } from "react-icons/tb";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
+import './styleOrder.css'
 
 const Order = () => {
   return (

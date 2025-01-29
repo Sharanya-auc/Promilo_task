@@ -1,0 +1,17 @@
+.order_space{
+    width:200px;
+    line-height:8px;
+    background-color: rgb(252, 243, 255);
+    border:1px solid rgb(248, 226, 255);
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    color: rgb(107, 3, 138);
+}
+
+@media (max-width: 768px) {
+    .order_details{
+        display: flex;
+        flex-direction: column;
+    }
+}

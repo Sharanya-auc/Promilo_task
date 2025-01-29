@@ -1,0 +1,59 @@
+.sidebar_main {
+  color: rgb(28, 27, 27);
+  position: absolute;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  p {
+    padding: 10px 30px;
+    margin-top: 0%;
+  }
+  .welcome {
+    padding: 10px 10px 0 10px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid rgb(199, 194, 194);
+    border-radius: 15px;
+    height: 10%;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .wallet {
+    padding: 10px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid rgb(199, 194, 194);
+    border-radius: 15px;
+    /* height: 20%; */
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    .mywallet {
+      display: flex;justify-content: space-between;
+      padding: 0 10px 0 0;
+      /* gap: 190px; */
+      font-size: 20px;
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+    }
+  }
+}
+.pending {
+  
+  width: 320px;
+  background-color: white;
+  border: 1px solid rgb(199, 194, 194);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 510px;
+  padding: 10px;
+  overflow: auto;
+}
+

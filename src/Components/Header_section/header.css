@@ -1,0 +1,110 @@
+.main_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 20px;
+}
+.header_list {
+  cursor: pointer;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+  gap: 30px;
+  #services_btn {
+    cursor: pointer;
+    width: 150px;
+    padding:7px 10px;
+    background-color: transparent;
+    border: none;
+    option{
+        background-color: white;
+        font-size: 15px;
+    }
+    .options{
+        background-color: red;
+    }
+  }
+  .comingsoon {
+    font-size: 10px;
+    padding: 1px 5px;
+    background-color: transparent;
+    color: rgb(180, 0, 251);
+    border: 1px solid rgb(151, 8, 208);
+    border-radius: 15px;
+  }
+}
+.bell{
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  .notifications{
+    position: relative;
+    bottom: 12px;right: 2px;
+    font-size: 15px;
+    width: 10px;height: 15px;
+    padding-left: 8px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+  }
+}
+.profile {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(237, 230, 230);
+  border-radius: 15px;
+  .M {
+    background-color: rgb(151, 8, 208);
+    color: white;
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+
+.menu-icon{
+  font-size: 34px;
+  display: none;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .logo_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .oqfy{
+    font-size: 28px;
+  }
+  .header_list {
+    display: none;
+    position: relative;
+    /* top: 0px; */
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: block;
+    display: flex;
+  }
+
+  .bell,
+  .profile {
+    display: none;
+  }
+
+  .header_list.open {
+    display: flex;
+  }
+}

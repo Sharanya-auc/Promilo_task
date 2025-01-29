@@ -1,0 +1,17 @@
+.services_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border: 1px solid rgb(217, 212, 212);
+    border-radius: 8px;
+}
+@media (max-width: 768px){
+    .main_services{
+        flex-wrap: wrap;
+    }
+    .services_cards{
+        background-color: rgb(242, 223, 252);
+    }
+}
